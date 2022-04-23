@@ -68,6 +68,7 @@
     },
     {
       "name": "Galaxy Note 9",
+      "featured": false,
       "width": 414,
       "height": 846,
       "pixelRatio": 3.5,
@@ -315,7 +316,7 @@
       "os": "Android",
       "pixelRatio": 2,
       "height": 1280
-    },   
+    },
     {
       "name": "iPad 1/2/Mini/Air",
       "featured": true,
@@ -325,7 +326,7 @@
       "os": "iOS",
       "pixelRatio": 2,
       "height": 1024
-    }, 
+    },
     {
       "name": "iPad 3/4/Pro 9.7",
       "featured": true,
@@ -390,7 +391,7 @@
       "userAgent": "Mozilla/5.0 (Linux; Android 4.4.2; SM-T800 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.111 Safari/537.36",
       "touch": true,
       "os": "Android"
-    }    
+    }
   ],
   "televisions": [
     {
@@ -423,164 +424,84 @@
   ],
   "screens": [
     {
-      "name": "800 X 600 SD",
-      "featured": false,
-      "width": 800,
-      "height": 600,
-      "userAgent": "",
-      "touch": false,
-      "os": "custom",
-      "pixelRatio": 1
-    },
-    {
-      "name": "1024 X 576 SD",
-      "featured": false,
-      "width": 1024,
-      "height": 576,
-      "userAgent": "",
-      "touch": false,
-      "os": "custom",
-      "pixelRatio": 1
-    },
-    {
-      "name": "1024 X 768 SD",
-      "featured": false,
-      "width": 1024,
-      "height": 768,
-      "userAgent": "",
-      "touch": false,
-      "os": "custom",
-      "pixelRatio": 1
-    },
-    {
-      "name": "1152 X 648 SD",
-      "featured": false,
-      "width": 1152,
-      "height": 648,
-      "userAgent": "",
-      "touch": false,
-      "os": "custom",
-      "pixelRatio": 1
-    },
-    {
-      "name": "1280 X 600 SD",
-      "featured": false,
-      "width": 1280,
-      "height": 600,
-      "userAgent": "",
-      "touch": false,
-      "os": "custom",
-      "pixelRatio": 1
-    },
-    {
-      "name": "1280 X 720 (720P) HD",
-      "featured": false,
-      "width": 1280,
-      "height": 720,
-      "userAgent": "",
-      "touch": false,
-      "os": "custom",
-      "pixelRatio": 1
-    },
-    {
-      "name": "1280 X 768 HD",
-      "featured": false,
-      "width": 1280,
-      "height": 768,
-      "userAgent": "",
-      "touch": false,
-      "os": "custom",
-      "pixelRatio": 1
-    },
-    {
-      "name": "1280 X 800 HD",
-      "featured": false,
-      "width": 1280,
-      "height": 800,
-      "userAgent": "",
-      "touch": false,
-      "os": "custom",
-      "pixelRatio": 1
-    },
-    {
-      "name": "1360 X 768 HD",
-      "featured": false,
-      "width": 1360,
-      "height": 768,
-      "userAgent": "",
-      "touch": false,
-      "os": "custom",
-      "pixelRatio": 1
-    },
-    {
-      "name": "1366 X 768 HD",
-      "featured": false,
-      "width": 1366,
-      "height": 768,
-      "userAgent": "",
-      "touch": false,
-      "os": "custom",
-      "pixelRatio": 1
-    },
-    {
-      "name": "1600 X 900 HD",
-      "featured": false,
-      "width": 1600,
-      "height": 900,
-      "userAgent": "",
-      "touch": false,
-      "os": "custom",
-      "pixelRatio": 1
-    },
-    {
-      "name": "1920 X 1080 (1080P) FHD",
-      "featured": false,
-      "width": 1920,
-      "height": 1080,
-      "userAgent": "",
-      "touch": false,
-      "os": "custom",
-      "pixelRatio": 1
-    },
-    {
-      "name": "2560 X 1440 (1440P) QHD",
-      "featured": false,
+      "name": "Macbook Pro M1 13p - 2560x1600 (Retina)",
+      "featured": true,
       "width": 2560,
-      "height": 1440,
+      "height": 1600,
       "userAgent": "",
       "touch": false,
       "os": "custom",
-      "pixelRatio": 1
+      "pixelRatio": 2
     },
     {
-      "name": "2048 X 1080 (2K) QHD",
-      "featured": false,
-      "width": 2048,
-      "height": 1080,
+      "name": "Macbook Pro M1 14p - 3024x1964 (Retina)",
+      "featured": true,
+      "width": 3024,
+      "height": 1964,
       "userAgent": "",
       "touch": false,
       "os": "custom",
-      "pixelRatio": 1
+      "pixelRatio": 2
     },
     {
-      "name": "3840 X 2160 (4K) UHD",
-      "featured": false,
+      "name": "Macbook Pro M1 16p - 3456x2234 (Retina)",
+      "featured": true,
+      "width": 3456,
+      "height": 2234,
+      "userAgent": "",
+      "touch": false,
+      "os": "custom",
+      "pixelRatio": 2
+    },
+    {
+      "name": "Dell XPS 13p - 3840x2160 - Ultra HD (Retina)",
+      "featured": true,
       "width": 3840,
       "height": 2160,
       "userAgent": "",
       "touch": false,
       "os": "custom",
-      "pixelRatio": 1
+      "pixelRatio": 2
     },
     {
-      "name": "7680 X 4320 (8K)",
-      "featured": false,
-      "width": 7680,
-      "height": 4320,
+      "name": "Thinkpad X1 Carbon 14p - 3840x2400 - WQUXGA (Retina)",
+      "featured": true,
+      "width": 3840,
+      "height": 2400,
       "userAgent": "",
       "touch": false,
       "os": "custom",
-      "pixelRatio": 1
+      "pixelRatio": 2
+    },
+    {
+      "name": "Dell XPS 15p - 3840x2400 - WQUXGA (Retina)",
+      "featured": true,
+      "width": 3840,
+      "height": 2400,
+      "userAgent": "",
+      "touch": false,
+      "os": "custom",
+      "pixelRatio": 2
+    },
+    {
+      "name": "Dell XPS 17p - 3840x2400 - WQUXGA (Retina)",
+      "featured": true,
+      "width": 3840,
+      "height": 2400,
+      "userAgent": "",
+      "touch": false,
+      "os": "custom",
+      "pixelRatio": 2
+    },
+    {
+      "name": "iMac 24p - 4480x2520 (Retina)",
+      "featured": true,
+      "width": 4480,
+      "height": 2520,
+      "userAgent": "",
+      "touch": false,
+      "os": "custom",
+      "pixelRatio": 2
     }
   ]
 }
